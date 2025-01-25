@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark grey text color */
+    display: flex;
+    justify-content: center;  /* Centers everything horizontally */
+    align-items: center;      /* Centers everything vertically */
+    height: 100vh;            /* Full viewport height */
+    text-align: center;       /* Centers all inline elements */
+}
+
+/* Main container for content */
+.container {
+    width: 80%;  /* Limiting the width of the content */
+    max-width: 1200px;  /* Max width for large screens */
+    padding: 20px;
+}
+
+/* Header (H1) */
+h1 {
+    font-size: 36px;
+    color: #003366;  /* Deep blue color */
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 0 auto;  /* Centers the image horizontally */
+    border-radius: 8px; /* Rounded corners for the image */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow around the image */
+}
+
+/* Heading 2 (H2) */
+h2 {
+    font-size: 28px;
+    color: #003366; /* Deep blue color */
+    border-bottom: 2px solid #003366; /* Underline effect for sub-headings */
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* About Us text (left-aligned) */
+.about-us-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: left;  /* Left align this specific paragraph */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button styling */
+button {
+    background-color: #003366; /* Deep blue background */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-top: 30px; /* Space between text and button */
+}
+
+button:hover {
+    background-color: #00509e; /* Lighter blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px #00509e; /* Add a subtle blue glow when focused */
+}
+
+/* Optional footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #003366;
+    color: white;
+    margin-top: 40px;
+}

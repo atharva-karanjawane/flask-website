@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <h2 style="text-align: center; color: #003366; font-size: 34px; margin-bottom: 15px;" >Courses</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; padding: 20px;">
+        {% for course in courses %}
+            <div class="course-card" style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 300px; text-align: left; font-size: 16px;">
+                <h2 style="text-align: center; color: #003366; font-size: 24px; margin-bottom: 15px;">{{ course.title }}</h2>
+                <p><strong>Instructor:</strong> {{ course.instructor }}</p>
+                <p><strong>Price:</strong> {{ course.price }}</p>
+                <div style="text-align: center;">
+                    <button style="background-color: #003366; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; transition: background-color 0.3s;">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
