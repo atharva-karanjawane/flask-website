@@ -7,6 +7,12 @@ COURSES = [
     {'id': 4, 'title': 'Graphic Designing', 'instructor': 'Shruti', 'price': 'Rs.17999'},
     {'id': 5, 'title': 'Web Development', 'instructor': 'Rahul', 'price': 'Rs.12999'},
     {'id': 6, 'title': 'Digital Marketing', 'instructor': 'Priya', 'price': 'Rs.14999'},
+    {'id': 4, 'title': 'Graphic Designing', 'instructor': 'Shruti', 'price': 'Rs.17999'},
+    {'id': 5, 'title': 'Web Development', 'instructor': 'Rahul', 'price': 'Rs.12999'},
+    {'id': 6, 'title': 'Digital Marketing', 'instructor': 'Priya', 'price': 'Rs.14999'},
+    {'id': 4, 'title': 'Graphic Designing', 'instructor': 'Shruti', 'price': 'Rs.17999'},
+    {'id': 5, 'title': 'Web Development', 'instructor': 'Rahul', 'price': 'Rs.12999'},
+    {'id': 6, 'title': 'Digital Marketing', 'instructor': 'Priya', 'price': 'Rs.14999'},
     
 ]
 
